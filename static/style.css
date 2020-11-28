@@ -4,9 +4,15 @@
     align-content: center;
     text-align: center;
     padding: 0;
-    margin: 0;
     font-family: Roboto;
 }
+
+svg{
+    display: block;
+    margin: auto;
+    transition: 100ms ease-in-out;
+}svg:hover{transform: scale(1.1);}
+
 .logo-container h1{
     font-size: 80px;
 }
